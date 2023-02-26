@@ -1,0 +1,37 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API server for request json file for data Alumnos",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "gen:app": "pkg app.js && dir",
+    "help": "echo \"Antes de hacer un npm gen:app borre los binarios ejecutables.\""
+  },
+  "keywords": [
+    "APi",
+    "Server",
+    "JSON",
+    "FILE",
+    "Alumnos"
+  ],
+  "author": {
+    "name": "David Erwin Montero Urrutia",
+    "email": "david.montero.urrutia@gmail.com",
+    "url": "https://github.com/APIMontero/APIMontero"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "fetch": "1.1.0",
+    "nodemon": "2.0.20",
+    "pkg": "5.8.0",
+    "underscore": "1.13.6"
+  }
+}
