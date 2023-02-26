@@ -1,6 +1,7 @@
 # Este es un archivo de JavaScript
 ## Contiene un arreglo de objetos con los datos de alumnos:
-`` javascript
+
+``` javascript
 alumnos = [
   {
     id: 70,
@@ -67,7 +68,7 @@ alumnos = [
   },
 ];
 
-``
+```
 
 ## El resultado final de la API
 
